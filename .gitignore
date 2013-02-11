@@ -3,9 +3,11 @@
 # C extensions
 *.so
 
+templates/*/output/*
 # Packages
 *.egg
 *.egg-info
+*.*~
 dist
 build
 eggs
@@ -20,6 +22,7 @@ lib64
 
 # Installer logs
 pip-log.txt
+.DS_Store
 
 # Unit test / coverage reports
 .coverage
